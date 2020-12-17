@@ -10,7 +10,7 @@ $query = mysqli_query($conn, $sql);
 $cek = mysqli_num_rows($query);
 
 if (cek > 0){
-$image_name = "C:\\xampp\\htdocs\\UploadImage\\".$username;
+$image_name = "C:\\xampp\\htdocs\\UploadFace\\".$username;
 
 if (!file_exists($image_name)) {
  if (!mkdir($image_name)) {
